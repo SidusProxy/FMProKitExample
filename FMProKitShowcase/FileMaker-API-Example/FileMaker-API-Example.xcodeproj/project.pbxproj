@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7A8406329F023060031F2F7 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8406229F023060031F2F7 /* ErrorHandler.swift */; };
+		B7A8406529F033CD0031F2F7 /* ModelFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8406429F033CD0031F2F7 /* ModelFetcher.swift */; };
+		B7DA61AC29F01D41005C4D68 /* FileMaker_API_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA61AB29F01D41005C4D68 /* FileMaker_API_ExampleApp.swift */; };
+		B7DA61AE29F01D41005C4D68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA61AD29F01D41005C4D68 /* ContentView.swift */; };
+		B7DA61B029F01D42005C4D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7DA61AF29F01D42005C4D68 /* Assets.xcassets */; };
+		B7DA61B429F01D42005C4D68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7DA61B329F01D42005C4D68 /* Preview Assets.xcassets */; };
+		B7DA61BE29F01D42005C4D68 /* FileMaker_API_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA61BD29F01D42005C4D68 /* FileMaker_API_ExampleTests.swift */; };
+		B7DA61C829F01D42005C4D68 /* FileMaker_API_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA61C729F01D42005C4D68 /* FileMaker_API_ExampleUITests.swift */; };
+		B7DA61CA29F01D42005C4D68 /* FileMaker_API_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA61C929F01D42005C4D68 /* FileMaker_API_ExampleUITestsLaunchTests.swift */; };
+		B7DA61D929F01E4E005C4D68 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA61D829F01E4E005C4D68 /* Client.swift */; };
+		D809565B29F68683000C2EE7 /* EditClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D809565A29F68683000C2EE7 /* EditClientView.swift */; };
+		D8C7A81329F125650025F2C3 /* AddClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C7A81229F125650025F2C3 /* AddClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7DA61BA29F01D42005C4D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7DA61A029F01D41005C4D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7DA61A729F01D41005C4D68;
+			remoteInfo = "FileMaker-API-Example";
+		};
+		B7DA61C429F01D42005C4D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7DA61A029F01D41005C4D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7DA61A729F01D41005C4D68;
+			remoteInfo = "FileMaker-API-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7A8406229F023060031F2F7 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		B7A8406429F033CD0031F2F7 /* ModelFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFetcher.swift; sourceTree = "<group>"; };
+		B7DA61A829F01D41005C4D68 /* FileMaker-API-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FileMaker-API-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DA61AB29F01D41005C4D68 /* FileMaker_API_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMaker_API_ExampleApp.swift; sourceTree = "<group>"; };
+		B7DA61AD29F01D41005C4D68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7DA61AF29F01D42005C4D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7DA61B129F01D42005C4D68 /* FileMaker_API_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FileMaker_API_Example.entitlements; sourceTree = "<group>"; };
+		B7DA61B329F01D42005C4D68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7DA61B929F01D42005C4D68 /* FileMaker-API-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FileMaker-API-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DA61BD29F01D42005C4D68 /* FileMaker_API_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMaker_API_ExampleTests.swift; sourceTree = "<group>"; };
+		B7DA61C329F01D42005C4D68 /* FileMaker-API-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FileMaker-API-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DA61C729F01D42005C4D68 /* FileMaker_API_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMaker_API_ExampleUITests.swift; sourceTree = "<group>"; };
+		B7DA61C929F01D42005C4D68 /* FileMaker_API_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMaker_API_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7DA61D829F01E4E005C4D68 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		D809565A29F68683000C2EE7 /* EditClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditClientView.swift; sourceTree = "<group>"; };
+		D8C7A81229F125650025F2C3 /* AddClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7DA61A529F01D41005C4D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DA61B629F01D42005C4D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DA61C029F01D42005C4D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7DA619F29F01D41005C4D68 = {
+			isa = PBXGroup;
+			children = (
+				B7DA61AA29F01D41005C4D68 /* FileMaker-API-Example */,
+				B7DA61BC29F01D42005C4D68 /* FileMaker-API-ExampleTests */,
+				B7DA61C629F01D42005C4D68 /* FileMaker-API-ExampleUITests */,
+				B7DA61A929F01D41005C4D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7DA61A929F01D41005C4D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7DA61A829F01D41005C4D68 /* FileMaker-API-Example.app */,
+				B7DA61B929F01D42005C4D68 /* FileMaker-API-ExampleTests.xctest */,
+				B7DA61C329F01D42005C4D68 /* FileMaker-API-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7DA61AA29F01D41005C4D68 /* FileMaker-API-Example */ = {
+			isa = PBXGroup;
+			children = (
+				B7DA61AB29F01D41005C4D68 /* FileMaker_API_ExampleApp.swift */,
+				D8C7A81229F125650025F2C3 /* AddClient.swift */,
+				B7DA61AD29F01D41005C4D68 /* ContentView.swift */,
+				D809565A29F68683000C2EE7 /* EditClientView.swift */,
+				B7A8406429F033CD0031F2F7 /* ModelFetcher.swift */,
+				B7A8406229F023060031F2F7 /* ErrorHandler.swift */,
+				B7DA61D829F01E4E005C4D68 /* Client.swift */,
+				B7DA61AF29F01D42005C4D68 /* Assets.xcassets */,
+				B7DA61B129F01D42005C4D68 /* FileMaker_API_Example.entitlements */,
+				B7DA61B229F01D42005C4D68 /* Preview Content */,
+			);
+			path = "FileMaker-API-Example";
+			sourceTree = "<group>";
+		};
+		B7DA61B229F01D42005C4D68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7DA61B329F01D42005C4D68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7DA61BC29F01D42005C4D68 /* FileMaker-API-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7DA61BD29F01D42005C4D68 /* FileMaker_API_ExampleTests.swift */,
+			);
+			path = "FileMaker-API-ExampleTests";
+			sourceTree = "<group>";
+		};
+		B7DA61C629F01D42005C4D68 /* FileMaker-API-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7DA61C729F01D42005C4D68 /* FileMaker_API_ExampleUITests.swift */,
+				B7DA61C929F01D42005C4D68 /* FileMaker_API_ExampleUITestsLaunchTests.swift */,
+			);
+			path = "FileMaker-API-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7DA61A729F01D41005C4D68 /* FileMaker-API-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DA61CD29F01D42005C4D68 /* Build configuration list for PBXNativeTarget "FileMaker-API-Example" */;
+			buildPhases = (
+				B7DA61A429F01D41005C4D68 /* Sources */,
+				B7DA61A529F01D41005C4D68 /* Frameworks */,
+				B7DA61A629F01D41005C4D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FileMaker-API-Example";
+			productName = "FileMaker-API-Example";
+			productReference = B7DA61A829F01D41005C4D68 /* FileMaker-API-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7DA61B829F01D42005C4D68 /* FileMaker-API-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DA61D029F01D42005C4D68 /* Build configuration list for PBXNativeTarget "FileMaker-API-ExampleTests" */;
+			buildPhases = (
+				B7DA61B529F01D42005C4D68 /* Sources */,
+				B7DA61B629F01D42005C4D68 /* Frameworks */,
+				B7DA61B729F01D42005C4D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7DA61BB29F01D42005C4D68 /* PBXTargetDependency */,
+			);
+			name = "FileMaker-API-ExampleTests";
+			productName = "FileMaker-API-ExampleTests";
+			productReference = B7DA61B929F01D42005C4D68 /* FileMaker-API-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7DA61C229F01D42005C4D68 /* FileMaker-API-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DA61D329F01D42005C4D68 /* Build configuration list for PBXNativeTarget "FileMaker-API-ExampleUITests" */;
+			buildPhases = (
+				B7DA61BF29F01D42005C4D68 /* Sources */,
+				B7DA61C029F01D42005C4D68 /* Frameworks */,
+				B7DA61C129F01D42005C4D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7DA61C529F01D42005C4D68 /* PBXTargetDependency */,
+			);
+			name = "FileMaker-API-ExampleUITests";
+			productName = "FileMaker-API-ExampleUITests";
+			productReference = B7DA61C329F01D42005C4D68 /* FileMaker-API-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7DA61A029F01D41005C4D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B7DA61A729F01D41005C4D68 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B7DA61B829F01D42005C4D68 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B7DA61A729F01D41005C4D68;
+					};
+					B7DA61C229F01D42005C4D68 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B7DA61A729F01D41005C4D68;
+					};
+				};
+			};
+			buildConfigurationList = B7DA61A329F01D41005C4D68 /* Build configuration list for PBXProject "FileMaker-API-Example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7DA619F29F01D41005C4D68;
+			productRefGroup = B7DA61A929F01D41005C4D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7DA61A729F01D41005C4D68 /* FileMaker-API-Example */,
+				B7DA61B829F01D42005C4D68 /* FileMaker-API-ExampleTests */,
+				B7DA61C229F01D42005C4D68 /* FileMaker-API-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7DA61A629F01D41005C4D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DA61B429F01D42005C4D68 /* Preview Assets.xcassets in Resources */,
+				B7DA61B029F01D42005C4D68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DA61B729F01D42005C4D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DA61C129F01D42005C4D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7DA61A429F01D41005C4D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C7A81329F125650025F2C3 /* AddClient.swift in Sources */,
+				D809565B29F68683000C2EE7 /* EditClientView.swift in Sources */,
+				B7DA61AE29F01D41005C4D68 /* ContentView.swift in Sources */,
+				B7A8406329F023060031F2F7 /* ErrorHandler.swift in Sources */,
+				B7DA61D929F01E4E005C4D68 /* Client.swift in Sources */,
+				B7A8406529F033CD0031F2F7 /* ModelFetcher.swift in Sources */,
+				B7DA61AC29F01D41005C4D68 /* FileMaker_API_ExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DA61B529F01D42005C4D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DA61BE29F01D42005C4D68 /* FileMaker_API_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DA61BF29F01D42005C4D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DA61C829F01D42005C4D68 /* FileMaker_API_ExampleUITests.swift in Sources */,
+				B7DA61CA29F01D42005C4D68 /* FileMaker_API_ExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7DA61BB29F01D42005C4D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7DA61A729F01D41005C4D68 /* FileMaker-API-Example */;
+			targetProxy = B7DA61BA29F01D42005C4D68 /* PBXContainerItemProxy */;
+		};
+		B7DA61C529F01D42005C4D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7DA61A729F01D41005C4D68 /* FileMaker-API-Example */;
+			targetProxy = B7DA61C429F01D42005C4D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7DA61CB29F01D42005C4D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7DA61CC29F01D42005C4D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B7DA61CE29F01D42005C4D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FileMaker-API-Example/FileMaker_API_Example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FileMaker-API-Example/Preview Content\"";
+				DEVELOPMENT_TEAM = HC6WH4RY5Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PerCoca.FileMaker-API-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7DA61CF29F01D42005C4D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FileMaker-API-Example/FileMaker_API_Example.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FileMaker-API-Example/Preview Content\"";
+				DEVELOPMENT_TEAM = HC6WH4RY5Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PerCoca.FileMaker-API-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7DA61D129F01D42005C4D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D253Y3VSCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PerCoca.FileMaker-API-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileMaker-API-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FileMaker-API-Example";
+			};
+			name = Debug;
+		};
+		B7DA61D229F01D42005C4D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D253Y3VSCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PerCoca.FileMaker-API-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileMaker-API-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FileMaker-API-Example";
+			};
+			name = Release;
+		};
+		B7DA61D429F01D42005C4D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D253Y3VSCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PerCoca.FileMaker-API-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FileMaker-API-Example";
+			};
+			name = Debug;
+		};
+		B7DA61D529F01D42005C4D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D253Y3VSCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PerCoca.FileMaker-API-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FileMaker-API-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7DA61A329F01D41005C4D68 /* Build configuration list for PBXProject "FileMaker-API-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DA61CB29F01D42005C4D68 /* Debug */,
+				B7DA61CC29F01D42005C4D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DA61CD29F01D42005C4D68 /* Build configuration list for PBXNativeTarget "FileMaker-API-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DA61CE29F01D42005C4D68 /* Debug */,
+				B7DA61CF29F01D42005C4D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DA61D029F01D42005C4D68 /* Build configuration list for PBXNativeTarget "FileMaker-API-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DA61D129F01D42005C4D68 /* Debug */,
+				B7DA61D229F01D42005C4D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DA61D329F01D42005C4D68 /* Build configuration list for PBXNativeTarget "FileMaker-API-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DA61D429F01D42005C4D68 /* Debug */,
+				B7DA61D529F01D42005C4D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7DA61A029F01D41005C4D68 /* Project object */;
+}
